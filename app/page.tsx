@@ -1,5 +1,10 @@
+import { MagicGate } from "@/components/auth/MagicGate";
 import { PlanApp } from "@/components/kvalitetsplan/PlanApp";
 
 export default function HomePage() {
-  return <PlanApp />;
+  return (
+    <MagicGate productName="kvalitetsplanen">
+      <PlanApp />
+    </MagicGate>
+  );
 }
