@@ -1,10 +1,5 @@
-import { MagicGate } from "@/components/auth/MagicGate";
-import { PlanApp } from "@/components/kvalitetsplan/PlanApp";
+import { Workspace } from "@/components/kvalitetsplan/workspace";
 
 export default function HomePage() {
-  return (
-    <MagicGate productName="kvalitetsplanen">
-      <PlanApp />
-    </MagicGate>
-  );
+  return <Workspace slug="start" />;
 }

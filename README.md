@@ -1,29 +1,11 @@
-# Kvalitetsplan App
+# Kvalitetsplan (från app-template)
 
-Digital kvalitetsplan för byggprojekt (Quality WorX).
+Kopia av `PaddeFTW/app-template` med hela innehållet från Word-mallen
+**Kvalitetsplan bygg mall – avancerad för större projekt**.
 
-## Vad finns
+- Skal, tokens, layouts och UI kommer från app-template
+- Kapitel 1–15, policy, blanketter, checklistor och listor kommer från Word-dokumentet
+- Sparar lokalt i webbläsaren
+- Gren: `from-app-template` i kvalitetsplan-app
 
-- Projektinformation (från Word-mall)
-- Kontrollmoment / egenkontroll med status 1–2–3
-- Spara i webbläsaren (localStorage)
-- Export: PDF (skriv ut/spara), Word (.doc), textfil
-- Färger i stil med onboarding-appen (indigo)
-
-## Köra lokalt
-
-```bash
-npm install
-npm run dev
-```
-
-Öppna http://localhost:3000
-
-## Nästa steg
-
-1. Magic link / konto (från `app-template` branch `account-system-integration`)
-2. Miljöplan + Arbetsmiljöplan (samma skal, annat innehåll)
-3. Koppla Supabase för molnsparande
-4. Deploy på Vercel
-
-Bas: onboarding-app UX + Word-mall innehåll.
+Onboarding-appen används inte.
